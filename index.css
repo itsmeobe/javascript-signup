@@ -1,0 +1,63 @@
+.background {
+  width: 100%;
+  height: 50rem;
+  padding: 0;
+  margin: 0;
+}
+
+.firstbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  box-shadow: 10px 10px rgba(60, 57, 58, 0.4);
+  background-image: url(./pink.jfif);
+  border-radius: 2rem 2rem 0rem 0rem;
+  width: 30rem;
+  height: 20rem;
+}
+
+.secondbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fffaf5;
+  width: 30rem;
+  height: 15rem;
+  border-radius: 0rem 0rem 2rem 2rem;
+
+  box-shadow: 10px 10px rgba(60, 57, 58, 0.4);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: -43rem;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.form-input,
+.form-input-correct,
+.form-input-wrong {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
